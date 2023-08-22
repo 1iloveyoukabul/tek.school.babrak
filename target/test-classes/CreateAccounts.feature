@@ -2,10 +2,10 @@
     Feature: updating an account
 
   Background: Test setup and Create New Account.
-    * def createAccount = callonce read('createAccount.feature')
-    * def validToken = createAccount.validToken
-    * def createdAccountId = createAccount.response.id
-    And print createAccount
+    * def id = callonce read('createAccount.feature')
+    * def validToken = id.validToken
+    * def createdAccountId = id.response.id
+    And print id
     Given url "https://tek-insurance-api.azurewebsites.net"
 
   Scenario: Adding Phone number to an Account

@@ -1,0 +1,1380 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+    <link rel="stylesheet" href="res/bootstrap.min.css" type="text/css"/>
+    <link rel="stylesheet" href="res/karate-report.css" type="text/css"/>
+    <link rel="shortcut icon" href="favicon.ico"/>
+    <script type="text/javascript" src="res/jquery.min.js"></script>
+    <script type="text/javascript" src="res/jquery.tablesorter.min.js"></script>
+    <script type="text/javascript" src="res/bootstrap.min.js"></script>
+    <script type="text/javascript" src="res/karate-report.js"></script>
+    <script>
+!function(t,e){var o,n,p,r;e.__SV||(window.posthog=e,e._i=[],e.init=function(i,s,a){function g(t,e){var o=e.split(".");2==o.length&&(t=t[o[0]],e=o[1]),t[e]=function(){t.push([e].concat(Array.prototype.slice.call(arguments,0)))}}(p=t.createElement("script")).type="text/javascript",p.async=!0,p.src=s.api_host+"/static/array.js",(r=t.getElementsByTagName("script")[0]).parentNode.insertBefore(p,r);var u=e;for(void 0!==a?u=e[a]=[]:a="posthog",u.people=u.people||[],u.toString=function(t){var e="posthog";return"posthog"!==a&&(e+="."+a),t||(e+=" (stub)"),e},u.people.toString=function(){return u.toString(1)+".people (stub)"},o="capture identify alias people.set people.set_once set_config register register_once unregister opt_out_capturing has_opted_out_capturing opt_in_capturing reset isFeatureEnabled onFeatureFlags".split(" "),n=0;n<o.length;n++)g(u,o[n]);e._i.push([i,s,a])},e.__SV=1)}(document,window.posthog||[]);
+posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
+  api_host:'https://app.posthog.com',
+  persistence:'localStorage',
+  autocapture:false,
+  capture_pageview:false,
+  api_transport:'sendBeacon',
+  loaded: function(posthog) { 
+    posthog.identify("73623bed-f16f-43ab-9694-867459ebd0ef",{name:"Babrak"});
+    posthog.capture("report_feature",{karate_version:"1.2.0",karate_meta:null});
+  }
+});
+</script>
+  
+    <title>src.test.resources.UpdateAccountCar</title>  
+  </head>
+  <body>   
+    <div id="root-container">
+      <div id="leftnav">
+                
+        <div>
+  <div class="nav-logo">
+    <a href="https://karatelabs.io">
+      <img src="karate-labs-logo-ring.svg" alt="Karate Labs"/>
+    </a>
+    <div class="nav-count">
+      <div id="nav-pass" class="bg-success">0</div>
+      <div id="nav-fail" class="bg-danger">1</div>
+    </div>
+  </div>
+  <div id="nav-type">
+    <div>Scenarios</div>
+  </div>         
+  <div id="nav-date">
+    <div>2023-08-22 05:29:51 PM</div>
+  </div>        
+</div>
+
+        <div class="nav-container">
+          <div class="nav-item failed">
+            <a href="#[1:9]"><span>[1:9]</span> <span>Update exisiting car info from account.</span></a>
+          </div>
+        </div>
+      </div>
+      <div id="content">
+        <div class="page-heading alert alert-primary">
+          <a href="karate-summary.html">Summary</a><span class="feature-label">|</span>
+          <a href="karate-tags.html">Tags</a><span class="feature-label">|</span>
+          <span class="feature-label">Feature:</span>
+          <span class="feature-path">src/test/resources/UpdateAccountCar.feature</span><span class="feature-label">|</span>
+          <span class="feature-name">Updating an account car</span>
+          <span class="feature-description"></span>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[1:9]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[1:9]</span>
+                <span class="scenario-name">Update exisiting car info from account.</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time failed">
+              <span>ms:</span>&nbsp;<span>1859</span>
+            </div>
+          </div>
+          <div class="step-row">
+            <div class="step-container" id="[1:9]bg">
+              <div class="step-ref bg-step">&gt;&gt;</div>
+              <div class="step-cell passed">Background:</div>
+            </div>
+            <div class="time-cell passed"></div>
+          </div>
+          <div data-parent="[1:9]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.4">
+      <div class="step-ref bg-step">4</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>url &quot;https://tek-insurance-api.azurewebsites.net&quot;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">61</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[1:9]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.5">
+      <div class="step-ref bg-step">5</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def id = callonce read(&#39;createAccount.feature&#39;)</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1519</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.5">17:29:51.598 &lt;&lt; lock released, cached callonce: read(&#39;createAccount.feature&#39;)
+</div>   
+
+  <div>
+        
+    <div class="step-row">
+      <div class="step-container" id="0.5.0.call">
+        <div class="step-ref bg-step">&gt;&gt;</div>
+        <div class="step-indent"></div>
+        <div class="step-cell passed">src.test.resources.createAccount</div>
+      </div>
+      <div class="time-cell passed">1461</div>
+    </div>
+    <div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.5.0.call">
+    <div class="step-container" id="0.5.0.call.0.4">
+      <div class="step-ref bg-step">4</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def result = callonce read(&#39;GenerateToken.feature&#39;)</span>
+      </div>
+    </div>
+    <div class="time-cell passed">999</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.5.0.call.0.4">17:29:51.136 &lt;&lt; lock released, cached callonce: read(&#39;GenerateToken.feature&#39;)
+</div>   
+
+  <div>
+        
+    <div class="step-row" data-parent="0.5.0.call">
+      <div class="step-container" id="0.5.0.call.0.4.0.call">
+        <div class="step-ref bg-step">&gt;&gt;</div>
+        <div class="step-indent"></div>
+        <div class="step-indent"></div>
+        <div class="step-cell passed">src.test.resources.GenerateToken</div>
+      </div>
+      <div class="time-cell passed">991</div>
+    </div>
+    <div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.5.0.call.0.4.0.call">
+    <div class="step-container" id="0.5.0.call.0.4.0.call.0.4">
+      <div class="step-ref bg-step">4</div>
+      <div class="step-indent"></div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>url &quot;https://tek-insurance-api.azurewebsites.net&quot;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.5.0.call.0.4.0.call.0.4">17:29:50.131 &gt;&gt; lock acquired, begin callonce: read(&#39;createAccount.feature&#39;)
+17:29:50.139 &gt;&gt; lock acquired, begin callonce: read(&#39;GenerateToken.feature&#39;)
+</div>   
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.5.0.call.0.4.0.call">
+    <div class="step-container" id="0.5.0.call.0.4.0.call.0.5">
+      <div class="step-ref bg-step">5</div>
+      <div class="step-indent"></div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>path &quot;/api/token&quot;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.5.0.call.0.4.0.call">
+    <div class="step-container" id="0.5.0.call.0.4.0.call.0.6">
+      <div class="step-ref bg-step">6</div>
+      <div class="step-indent"></div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>request {&quot;username&quot; : &quot;supervisor&quot; , &quot;password&quot; : &quot;tek_supervisor&quot;}</span>
+      </div>
+    </div>
+    <div class="time-cell passed">39</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.5.0.call.0.4.0.call">
+    <div class="step-container" id="0.5.0.call.0.4.0.call.0.7">
+      <div class="step-ref bg-step">7</div>
+      <div class="step-indent"></div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method post</span>
+      </div>
+    </div>
+    <div class="time-cell passed">940</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.5.0.call.0.4.0.call.0.7">17:29:50.504 request:
+1 &gt; POST https://tek-insurance-api.azurewebsites.net/api/token
+1 &gt; Content-Type: application/json; charset=UTF-8
+1 &gt; Content-Length: 53
+1 &gt; Host: tek-insurance-api.azurewebsites.net
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.17)
+1 &gt; Accept-Encoding: gzip,deflate
+{&quot;username&quot;:&quot;supervisor&quot;,&quot;password&quot;:&quot;tek_supervisor&quot;}
+
+17:29:51.121 response time in milliseconds: 614
+1 &lt; 200
+1 &lt; Content-Type: application/json
+1 &lt; Date: Tue, 22 Aug 2023 21:29:51 GMT
+1 &lt; Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+1 &lt; Expires: 0
+1 &lt; Pragma: no-cache
+1 &lt; Transfer-Encoding: chunked
+1 &lt; Vary: Origin
+1 &lt; Vary: Access-Control-Request-Method
+1 &lt; Vary: Access-Control-Request-Headers
+1 &lt; X-Content-Type-Options: nosniff
+1 &lt; X-XSS-Protection: 1; mode=block
+1 &lt; Strict-Transport-Security: max-age=31536000 ; includeSubDomains
+1 &lt; X-Frame-Options: DENY
+{&quot;fullName&quot;:&quot;Supervisor&quot;,&quot;username&quot;:&quot;SUPERVISOR&quot;,&quot;token&quot;:&quot;eyJraWQiOiJUZWtzY2hvb2wgSW5zdXJhbmNlIEFwcGxpY2F0aW9uIiwidHlwIjoiSldUIiwiYWxnIjoiSFM1MTIifQ.eyJhdWQiOiJVc2VyIG1hbmFnZW1lbnQgcG9ydGFsIiwic3ViIjoiU1VQRVJWSVNPUiIsImlzcyI6IlRlayBJbnN1cmFuY2UgQXBwbGljYXRpb24iLCJBdXRob3JpdGllcyI6WyJBRE1JTiJdLCJleHAiOjE2OTI4MjYxOTEsImlhdCI6MTY5MjczOTc5MX0.dQMf1hz14Hzr4ZfqycKlz0e5xSWWx7Mqk18CECs1oOJeWmJWCaNr79qc3W7P_GPfbf8j5YWdB_2X6Qn_Q0TCfA&quot;,&quot;generateDate&quot;:1692739791150,&quot;accountType&quot;:&quot;CSR&quot;}
+
+</div>   
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.5.0.call.0.4.0.call">
+    <div class="step-container" id="0.5.0.call.0.4.0.call.0.8">
+      <div class="step-ref bg-step">8</div>
+      <div class="step-indent"></div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>status 200</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.5.0.call.0.4.0.call">
+    <div class="step-container" id="0.5.0.call.0.4.0.call.0.9">
+      <div class="step-ref bg-step">9</div>
+      <div class="step-indent"></div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>print response</span>
+      </div>
+    </div>
+    <div class="time-cell passed">12</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.5.0.call.0.4.0.call.0.9">17:29:51.135 [print] {
+  &quot;fullName&quot;: &quot;Supervisor&quot;,
+  &quot;username&quot;: &quot;SUPERVISOR&quot;,
+  &quot;token&quot;: &quot;eyJraWQiOiJUZWtzY2hvb2wgSW5zdXJhbmNlIEFwcGxpY2F0aW9uIiwidHlwIjoiSldUIiwiYWxnIjoiSFM1MTIifQ.eyJhdWQiOiJVc2VyIG1hbmFnZW1lbnQgcG9ydGFsIiwic3ViIjoiU1VQRVJWSVNPUiIsImlzcyI6IlRlayBJbnN1cmFuY2UgQXBwbGljYXRpb24iLCJBdXRob3JpdGllcyI6WyJBRE1JTiJdLCJleHAiOjE2OTI4MjYxOTEsImlhdCI6MTY5MjczOTc5MX0.dQMf1hz14Hzr4ZfqycKlz0e5xSWWx7Mqk18CECs1oOJeWmJWCaNr79qc3W7P_GPfbf8j5YWdB_2X6Qn_Q0TCfA&quot;,
+  &quot;generateDate&quot;: 1692739791150,
+  &quot;accountType&quot;: &quot;CSR&quot;
+}
+ 
+</div>   
+
+  
+
+</div>
+</div>
+    </div>    
+  </div>
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.5.0.call">
+    <div class="step-container" id="0.5.0.call.0.5">
+      <div class="step-ref bg-step">5</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>print result</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.5.0.call.0.5">17:29:51.137 [print] {
+  &quot;responseStatus&quot;: 200,
+  &quot;response&quot;: {
+    &quot;fullName&quot;: &quot;Supervisor&quot;,
+    &quot;username&quot;: &quot;SUPERVISOR&quot;,
+    &quot;token&quot;: &quot;eyJraWQiOiJUZWtzY2hvb2wgSW5zdXJhbmNlIEFwcGxpY2F0aW9uIiwidHlwIjoiSldUIiwiYWxnIjoiSFM1MTIifQ.eyJhdWQiOiJVc2VyIG1hbmFnZW1lbnQgcG9ydGFsIiwic3ViIjoiU1VQRVJWSVNPUiIsImlzcyI6IlRlayBJbnN1cmFuY2UgQXBwbGljYXRpb24iLCJBdXRob3JpdGllcyI6WyJBRE1JTiJdLCJleHAiOjE2OTI4MjYxOTEsImlhdCI6MTY5MjczOTc5MX0.dQMf1hz14Hzr4ZfqycKlz0e5xSWWx7Mqk18CECs1oOJeWmJWCaNr79qc3W7P_GPfbf8j5YWdB_2X6Qn_Q0TCfA&quot;,
+    &quot;generateDate&quot;: 1692739791150,
+    &quot;accountType&quot;: &quot;CSR&quot;
+  },
+  &quot;responseHeaders&quot;: {
+    &quot;Content-Type&quot;: [
+      &quot;application/json&quot;
+    ],
+    &quot;Date&quot;: [
+      &quot;Tue, 22 Aug 2023 21:29:51 GMT&quot;
+    ],
+    &quot;Cache-Control&quot;: [
+      &quot;no-cache, no-store, max-age=0, must-revalidate&quot;
+    ],
+    &quot;Expires&quot;: [
+      &quot;0&quot;
+    ],
+    &quot;Pragma&quot;: [
+      &quot;no-cache&quot;
+    ],
+    &quot;Transfer-Encoding&quot;: [
+      &quot;chunked&quot;
+    ],
+    &quot;Vary&quot;: [
+      &quot;Origin&quot;,
+      &quot;Access-Control-Request-Method&quot;,
+      &quot;Access-Control-Request-Headers&quot;
+    ],
+    &quot;X-Content-Type-Options&quot;: [
+      &quot;nosniff&quot;
+    ],
+    &quot;X-XSS-Protection&quot;: [
+      &quot;1; mode=block&quot;
+    ],
+    &quot;Strict-Transport-Security&quot;: [
+      &quot;max-age=31536000 ; includeSubDomains&quot;
+    ],
+    &quot;X-Frame-Options&quot;: [
+      &quot;DENY&quot;
+    ]
+  }
+}
+ 
+</div>   
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.5.0.call">
+    <div class="step-container" id="0.5.0.call.0.6">
+      <div class="step-ref bg-step">6</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def validToken = result.response.token</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.5.0.call">
+    <div class="step-container" id="0.5.0.call.0.7">
+      <div class="step-ref bg-step">7</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>url &quot;https://tek-insurance-api.azurewebsites.net&quot;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.5.0.call">
+    <div class="step-container" id="0.5.0.call.0.10">
+      <div class="step-ref bg-step">10</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>path &quot;/api/accounts/add-primary-account&quot;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.5.0.call">
+    <div class="step-container" id="0.5.0.call.0.11">
+      <div class="step-ref bg-step">11</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>header Authorization = &quot;Bearer &quot; + validToken</span>
+      </div>
+    </div>
+    <div class="time-cell passed">6</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  <div class="step-row" data-parent="0.5.0.call">
+    <div class="step-container">
+      <div class="step-ref passed"></div>
+      <div class="step-indent"></div>
+      <div class="step-cell comment">#creating auto email</div>
+    </div>
+    <div class="time-cell comment"></div>            
+  </div>
+
+  <div class="step-row" data-parent="0.5.0.call">
+    <div class="step-container">
+      <div class="step-ref passed"></div>
+      <div class="step-indent"></div>
+      <div class="step-cell comment">#calling Java class in feature file. this utilty will create object from java class.</div>
+    </div>
+    <div class="time-cell comment"></div>            
+  </div>
+
+  <div class="step-row" data-parent="0.5.0.call">
+    <div class="step-container" id="0.5.0.call.0.15">
+      <div class="step-ref bg-step">15</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def generateDataObject = Java.type(&#39;apiUtility.GenerateData&#39;)</span>
+      </div>
+    </div>
+    <div class="time-cell passed">4</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.5.0.call">
+    <div class="step-container" id="0.5.0.call.0.16">
+      <div class="step-ref bg-step">16</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def GeneratedEmail = generateDataObject.getEmail();</span>
+      </div>
+    </div>
+    <div class="time-cell passed">12</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.5.0.call">
+    <div class="step-container" id="0.5.0.call.0.17">
+      <div class="step-ref bg-step">17</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>request</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  <div class="preformatted" data-parent="0.5.0.call.0.17">{
+     
+        &quot;email&quot;: &quot;#(GeneratedEmail)&quot;,
+        &quot;title&quot;: &quot;Mr.&quot;,
+        &quot;firstName&quot;: &quot;John&quot;,
+        &quot;lastName&quot;: &quot;Alex&quot;,
+        &quot;gender&quot;: &quot;MALE&quot;,
+        &quot;maritalStatus&quot;: &quot;MARRIED&quot;,
+        &quot;employmentStatus&quot;: &quot;Tester&quot;,
+        &quot;dateOfBirth&quot;: &quot;1995-08-18&quot;,
+        
+    }</div>
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.5.0.call">
+    <div class="step-container" id="0.5.0.call.0.32">
+      <div class="step-ref bg-step">32</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method post</span>
+      </div>
+    </div>
+    <div class="time-cell passed">432</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.5.0.call.0.32">17:29:51.163 request:
+2 &gt; POST https://tek-insurance-api.azurewebsites.net/api/accounts/add-primary-account
+2 &gt; Authorization: Bearer eyJraWQiOiJUZWtzY2hvb2wgSW5zdXJhbmNlIEFwcGxpY2F0aW9uIiwidHlwIjoiSldUIiwiYWxnIjoiSFM1MTIifQ.eyJhdWQiOiJVc2VyIG1hbmFnZW1lbnQgcG9ydGFsIiwic3ViIjoiU1VQRVJWSVNPUiIsImlzcyI6IlRlayBJbnN1cmFuY2UgQXBwbGljYXRpb24iLCJBdXRob3JpdGllcyI6WyJBRE1JTiJdLCJleHAiOjE2OTI4MjYxOTEsImlhdCI6MTY5MjczOTc5MX0.dQMf1hz14Hzr4ZfqycKlz0e5xSWWx7Mqk18CECs1oOJeWmJWCaNr79qc3W7P_GPfbf8j5YWdB_2X6Qn_Q0TCfA
+2 &gt; Content-Type: application/json; charset=UTF-8
+2 &gt; Content-Length: 193
+2 &gt; Host: tek-insurance-api.azurewebsites.net
+2 &gt; Connection: Keep-Alive
+2 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.17)
+2 &gt; Accept-Encoding: gzip,deflate
+{&quot;email&quot;:&quot;javaClassStudent7066@tekschool.us&quot;,&quot;title&quot;:&quot;Mr.&quot;,&quot;firstName&quot;:&quot;John&quot;,&quot;lastName&quot;:&quot;Alex&quot;,&quot;gender&quot;:&quot;MALE&quot;,&quot;maritalStatus&quot;:&quot;MARRIED&quot;,&quot;employmentStatus&quot;:&quot;Tester&quot;,&quot;dateOfBirth&quot;:&quot;1995-08-18&quot;}
+
+17:29:51.591 response time in milliseconds: 425
+2 &lt; 201
+2 &lt; Content-Type: application/json
+2 &lt; Date: Tue, 22 Aug 2023 21:29:51 GMT
+2 &lt; Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+2 &lt; Expires: 0
+2 &lt; Pragma: no-cache
+2 &lt; Transfer-Encoding: chunked
+2 &lt; Vary: Origin
+2 &lt; Vary: Access-Control-Request-Method
+2 &lt; Vary: Access-Control-Request-Headers
+2 &lt; X-Content-Type-Options: nosniff
+2 &lt; X-XSS-Protection: 1; mode=block
+2 &lt; Strict-Transport-Security: max-age=31536000 ; includeSubDomains
+2 &lt; X-Frame-Options: DENY
+2 &lt; Set-Cookie: JSESSIONID=292333732F59342E62767EDE6D73AD80; Domain=tek-insurance-api.azurewebsites.net; Secure
+{&quot;id&quot;:14481,&quot;email&quot;:&quot;javaClassStudent7066@tekschool.us&quot;,&quot;title&quot;:&quot;Mr.&quot;,&quot;firstName&quot;:&quot;John&quot;,&quot;lastName&quot;:&quot;Alex&quot;,&quot;gender&quot;:&quot;MALE&quot;,&quot;maritalStatus&quot;:&quot;MARRIED&quot;,&quot;employmentStatus&quot;:&quot;Tester&quot;,&quot;dateOfBirth&quot;:808704000000,&quot;user&quot;:null}
+
+</div>   
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.5.0.call">
+    <div class="step-container" id="0.5.0.call.0.33">
+      <div class="step-ref bg-step">33</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>status 201</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.5.0.call">
+    <div class="step-container" id="0.5.0.call.0.34">
+      <div class="step-ref bg-step">34</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>print response</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.5.0.call.0.34">17:29:51.594 [print] {
+  &quot;id&quot;: 14481,
+  &quot;email&quot;: &quot;javaClassStudent7066@tekschool.us&quot;,
+  &quot;title&quot;: &quot;Mr.&quot;,
+  &quot;firstName&quot;: &quot;John&quot;,
+  &quot;lastName&quot;: &quot;Alex&quot;,
+  &quot;gender&quot;: &quot;MALE&quot;,
+  &quot;maritalStatus&quot;: &quot;MARRIED&quot;,
+  &quot;employmentStatus&quot;: &quot;Tester&quot;,
+  &quot;dateOfBirth&quot;: 808704000000,
+  &quot;user&quot;: null
+}
+ 
+</div>   
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.5.0.call">
+    <div class="step-container" id="0.5.0.call.0.35">
+      <div class="step-ref bg-step">35</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>assert response.email == GeneratedEmail</span>
+      </div>
+    </div>
+    <div class="time-cell passed">4</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+    </div>    
+  </div>
+
+</div>
+</div>
+          <div data-parent="[1:9]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.6">
+      <div class="step-ref bg-step">6</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def validToken = id.validToken</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[1:9]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.7">
+      <div class="step-ref bg-step">7</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def generatedAccountId = id.response.id</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[1:9]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.8">
+      <div class="step-ref bg-step">8</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>print id</span>
+      </div>
+    </div>
+    <div class="time-cell passed">2</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.8">17:29:51.602 [print] {
+  &quot;result&quot;: {
+    &quot;responseStatus&quot;: 200,
+    &quot;response&quot;: {
+      &quot;fullName&quot;: &quot;Supervisor&quot;,
+      &quot;username&quot;: &quot;SUPERVISOR&quot;,
+      &quot;token&quot;: &quot;eyJraWQiOiJUZWtzY2hvb2wgSW5zdXJhbmNlIEFwcGxpY2F0aW9uIiwidHlwIjoiSldUIiwiYWxnIjoiSFM1MTIifQ.eyJhdWQiOiJVc2VyIG1hbmFnZW1lbnQgcG9ydGFsIiwic3ViIjoiU1VQRVJWSVNPUiIsImlzcyI6IlRlayBJbnN1cmFuY2UgQXBwbGljYXRpb24iLCJBdXRob3JpdGllcyI6WyJBRE1JTiJdLCJleHAiOjE2OTI4MjYxOTEsImlhdCI6MTY5MjczOTc5MX0.dQMf1hz14Hzr4ZfqycKlz0e5xSWWx7Mqk18CECs1oOJeWmJWCaNr79qc3W7P_GPfbf8j5YWdB_2X6Qn_Q0TCfA&quot;,
+      &quot;generateDate&quot;: 1692739791150,
+      &quot;accountType&quot;: &quot;CSR&quot;
+    },
+    &quot;responseHeaders&quot;: {
+      &quot;Content-Type&quot;: [
+        &quot;application/json&quot;
+      ],
+      &quot;Date&quot;: [
+        &quot;Tue, 22 Aug 2023 21:29:51 GMT&quot;
+      ],
+      &quot;Cache-Control&quot;: [
+        &quot;no-cache, no-store, max-age=0, must-revalidate&quot;
+      ],
+      &quot;Expires&quot;: [
+        &quot;0&quot;
+      ],
+      &quot;Pragma&quot;: [
+        &quot;no-cache&quot;
+      ],
+      &quot;Transfer-Encoding&quot;: [
+        &quot;chunked&quot;
+      ],
+      &quot;Vary&quot;: [
+        &quot;Origin&quot;,
+        &quot;Access-Control-Request-Method&quot;,
+        &quot;Access-Control-Request-Headers&quot;
+      ],
+      &quot;X-Content-Type-Options&quot;: [
+        &quot;nosniff&quot;
+      ],
+      &quot;X-XSS-Protection&quot;: [
+        &quot;1; mode=block&quot;
+      ],
+      &quot;Strict-Transport-Security&quot;: [
+        &quot;max-age=31536000 ; includeSubDomains&quot;
+      ],
+      &quot;X-Frame-Options&quot;: [
+        &quot;DENY&quot;
+      ]
+    }
+  },
+  &quot;validToken&quot;: &quot;eyJraWQiOiJUZWtzY2hvb2wgSW5zdXJhbmNlIEFwcGxpY2F0aW9uIiwidHlwIjoiSldUIiwiYWxnIjoiSFM1MTIifQ.eyJhdWQiOiJVc2VyIG1hbmFnZW1lbnQgcG9ydGFsIiwic3ViIjoiU1VQRVJWSVNPUiIsImlzcyI6IlRlayBJbnN1cmFuY2UgQXBwbGljYXRpb24iLCJBdXRob3JpdGllcyI6WyJBRE1JTiJdLCJleHAiOjE2OTI4MjYxOTEsImlhdCI6MTY5MjczOTc5MX0.dQMf1hz14Hzr4ZfqycKlz0e5xSWWx7Mqk18CECs1oOJeWmJWCaNr79qc3W7P_GPfbf8j5YWdB_2X6Qn_Q0TCfA&quot;,
+  &quot;responseHeaders&quot;: {
+    &quot;Content-Type&quot;: [
+      &quot;application/json&quot;
+    ],
+    &quot;Date&quot;: [
+      &quot;Tue, 22 Aug 2023 21:29:51 GMT&quot;
+    ],
+    &quot;Cache-Control&quot;: [
+      &quot;no-cache, no-store, max-age=0, must-revalidate&quot;
+    ],
+    &quot;Expires&quot;: [
+      &quot;0&quot;
+    ],
+    &quot;Pragma&quot;: [
+      &quot;no-cache&quot;
+    ],
+    &quot;Transfer-Encoding&quot;: [
+      &quot;chunked&quot;
+    ],
+    &quot;Vary&quot;: [
+      &quot;Origin&quot;,
+      &quot;Access-Control-Request-Method&quot;,
+      &quot;Access-Control-Request-Headers&quot;
+    ],
+    &quot;X-Content-Type-Options&quot;: [
+      &quot;nosniff&quot;
+    ],
+    &quot;X-XSS-Protection&quot;: [
+      &quot;1; mode=block&quot;
+    ],
+    &quot;Strict-Transport-Security&quot;: [
+      &quot;max-age=31536000 ; includeSubDomains&quot;
+    ],
+    &quot;X-Frame-Options&quot;: [
+      &quot;DENY&quot;
+    ],
+    &quot;Set-Cookie&quot;: [
+      &quot;JSESSIONID=292333732F59342E62767EDE6D73AD80; Domain=tek-insurance-api.azurewebsites.net; Secure&quot;
+    ]
+  },
+  &quot;GeneratedEmail&quot;: &quot;javaClassStudent7066@tekschool.us&quot;,
+  &quot;response&quot;: {
+    &quot;id&quot;: 14481,
+    &quot;email&quot;: &quot;javaClassStudent7066@tekschool.us&quot;,
+    &quot;title&quot;: &quot;Mr.&quot;,
+    &quot;firstName&quot;: &quot;John&quot;,
+    &quot;lastName&quot;: &quot;Alex&quot;,
+    &quot;gender&quot;: &quot;MALE&quot;,
+    &quot;maritalStatus&quot;: &quot;MARRIED&quot;,
+    &quot;employmentStatus&quot;: &quot;Tester&quot;,
+    &quot;dateOfBirth&quot;: 808704000000,
+    &quot;user&quot;: null
+  },
+  &quot;responseStatus&quot;: 201,
+  &quot;generateDataObject&quot;: &quot;apiUtility.GenerateData&quot;
+}
+ 
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.10">
+      <div class="step-ref passed">10</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>path &quot;/api/accounts/add-account-car&quot;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.11">
+      <div class="step-ref passed">11</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>param primaryPersonId = id</span>
+      </div>
+    </div>
+    <div class="time-cell passed">15</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.12">
+      <div class="step-ref passed">12</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>header Authorization = &quot;Bearer &quot; + validToken</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.13">
+      <div class="step-ref passed">13</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def exisitingData = Java.type(&#39;apiUtility.GenerateData&#39;)</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.14">
+      <div class="step-ref passed">14</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def licenseNumber = exisitingData.getLicense()</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.15">
+      <div class="step-ref passed">15</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>request</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.16">
+      <div class="step-ref passed">16</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>request</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  <div class="preformatted" data-parent="0.16">{
+&quot;id&quot;: 0,
+&quot;make&quot;: &quot;Acura&quot;,
+&quot;model&quot;: &quot;MDX&quot;,
+&quot;year&quot;: &quot;2020&quot;,
+&quot;licensePlate&quot;: &quot;#(licenseNumber)&quot;
+}</div>
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.26">
+      <div class="step-ref passed">26</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method post</span>
+      </div>
+    </div>
+    <div class="time-cell passed">258</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.26">17:29:51.624 request:
+3 &gt; POST https://tek-insurance-api.azurewebsites.net/api/accounts/add-account-car?primaryPersonId=%7B%22result%22%3A%7B%22responseStatus%22%3A200%2C%22response%22%3A%7B%22fullName%22%3A%22Supervisor%22%2C%22username%22%3A%22SUPERVISOR%22%2C%22token%22%3A%22eyJraWQiOiJUZWtzY2hvb2wgSW5zdXJhbmNlIEFwcGxpY2F0aW9uIiwidHlwIjoiSldUIiwiYWxnIjoiSFM1MTIifQ.eyJhdWQiOiJVc2VyIG1hbmFnZW1lbnQgcG9ydGFsIiwic3ViIjoiU1VQRVJWSVNPUiIsImlzcyI6IlRlayBJbnN1cmFuY2UgQXBwbGljYXRpb24iLCJBdXRob3JpdGllcyI6WyJBRE1JTiJdLCJleHAiOjE2OTI4MjYxOTEsImlhdCI6MTY5MjczOTc5MX0.dQMf1hz14Hzr4ZfqycKlz0e5xSWWx7Mqk18CECs1oOJeWmJWCaNr79qc3W7P_GPfbf8j5YWdB_2X6Qn_Q0TCfA%22%2C%22generateDate%22%3A1692739791150%2C%22accountType%22%3A%22CSR%22%7D%2C%22responseHeaders%22%3A%7B%22Content-Type%22%3A%5B%22application%5C%2Fjson%22%5D%2C%22Date%22%3A%5B%22Tue%2C+22+Aug+2023+21%3A29%3A51+GMT%22%5D%2C%22Cache-Control%22%3A%5B%22no-cache%2C+no-store%2C+max-age%3D0%2C+must-revalidate%22%5D%2C%22Expires%22%3A%5B%220%22%5D%2C%22Pragma%22%3A%5B%22no-cache%22%5D%2C%22Transfer-Encoding%22%3A%5B%22chunked%22%5D%2C%22Vary%22%3A%5B%22Origin%22%2C%22Access-Control-Request-Method%22%2C%22Access-Control-Request-Headers%22%5D%2C%22X-Content-Type-Options%22%3A%5B%22nosniff%22%5D%2C%22X-XSS-Protection%22%3A%5B%221%3B+mode%3Dblock%22%5D%2C%22Strict-Transport-Security%22%3A%5B%22max-age%3D31536000+%3B+includeSubDomains%22%5D%2C%22X-Frame-Options%22%3A%5B%22DENY%22%5D%7D%7D%2C%22validToken%22%3A%22eyJraWQiOiJUZWtzY2hvb2wgSW5zdXJhbmNlIEFwcGxpY2F0aW9uIiwidHlwIjoiSldUIiwiYWxnIjoiSFM1MTIifQ.eyJhdWQiOiJVc2VyIG1hbmFnZW1lbnQgcG9ydGFsIiwic3ViIjoiU1VQRVJWSVNPUiIsImlzcyI6IlRlayBJbnN1cmFuY2UgQXBwbGljYXRpb24iLCJBdXRob3JpdGllcyI6WyJBRE1JTiJdLCJleHAiOjE2OTI4MjYxOTEsImlhdCI6MTY5MjczOTc5MX0.dQMf1hz14Hzr4ZfqycKlz0e5xSWWx7Mqk18CECs1oOJeWmJWCaNr79qc3W7P_GPfbf8j5YWdB_2X6Qn_Q0TCfA%22%2C%22responseHeaders%22%3A%7B%22Content-Type%22%3A%5B%22application%5C%2Fjson%22%5D%2C%22Date%22%3A%5B%22Tue%2C+22+Aug+2023+21%3A29%3A51+GMT%22%5D%2C%22Cache-Control%22%3A%5B%22no-cache%2C+no-store%2C+max-age%3D0%2C+must-revalidate%22%5D%2C%22Expires%22%3A%5B%220%22%5D%2C%22Pragma%22%3A%5B%22no-cache%22%5D%2C%22Transfer-Encoding%22%3A%5B%22chunked%22%5D%2C%22Vary%22%3A%5B%22Origin%22%2C%22Access-Control-Request-Method%22%2C%22Access-Control-Request-Headers%22%5D%2C%22X-Content-Type-Options%22%3A%5B%22nosniff%22%5D%2C%22X-XSS-Protection%22%3A%5B%221%3B+mode%3Dblock%22%5D%2C%22Strict-Transport-Security%22%3A%5B%22max-age%3D31536000+%3B+includeSubDomains%22%5D%2C%22X-Frame-Options%22%3A%5B%22DENY%22%5D%2C%22Set-Cookie%22%3A%5B%22JSESSIONID%3D292333732F59342E62767EDE6D73AD80%3B+Domain%3Dtek-insurance-api.azurewebsites.net%3B+Secure%22%5D%7D%2C%22GeneratedEmail%22%3A%22javaClassStudent7066%40tekschool.us%22%2C%22response%22%3A%7B%22id%22%3A14481%2C%22email%22%3A%22javaClassStudent7066%40tekschool.us%22%2C%22title%22%3A%22Mr.%22%2C%22firstName%22%3A%22John%22%2C%22lastName%22%3A%22Alex%22%2C%22gender%22%3A%22MALE%22%2C%22maritalStatus%22%3A%22MARRIED%22%2C%22employmentStatus%22%3A%22Tester%22%2C%22dateOfBirth%22%3A808704000000%2C%22user%22%3Anull%7D%2C%22responseStatus%22%3A201%2C%22generateDataObject%22%3A%7B%7D%7D
+3 &gt; Authorization: Bearer eyJraWQiOiJUZWtzY2hvb2wgSW5zdXJhbmNlIEFwcGxpY2F0aW9uIiwidHlwIjoiSldUIiwiYWxnIjoiSFM1MTIifQ.eyJhdWQiOiJVc2VyIG1hbmFnZW1lbnQgcG9ydGFsIiwic3ViIjoiU1VQRVJWSVNPUiIsImlzcyI6IlRlayBJbnN1cmFuY2UgQXBwbGljYXRpb24iLCJBdXRob3JpdGllcyI6WyJBRE1JTiJdLCJleHAiOjE2OTI4MjYxOTEsImlhdCI6MTY5MjczOTc5MX0.dQMf1hz14Hzr4ZfqycKlz0e5xSWWx7Mqk18CECs1oOJeWmJWCaNr79qc3W7P_GPfbf8j5YWdB_2X6Qn_Q0TCfA
+3 &gt; Content-Type: application/json; charset=UTF-8
+3 &gt; Content-Length: 76
+3 &gt; Host: tek-insurance-api.azurewebsites.net
+3 &gt; Connection: Keep-Alive
+3 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.17)
+3 &gt; Accept-Encoding: gzip,deflate
+{&quot;id&quot;:0,&quot;make&quot;:&quot;Acura&quot;,&quot;model&quot;:&quot;MDX&quot;,&quot;year&quot;:&quot;2020&quot;,&quot;licensePlate&quot;:&quot;VAL-193&quot;}
+
+17:29:51.878 response time in milliseconds: 254
+3 &lt; 500
+3 &lt; Content-Type: application/json
+3 &lt; Date: Tue, 22 Aug 2023 21:29:51 GMT
+3 &lt; Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+3 &lt; Expires: 0
+3 &lt; Pragma: no-cache
+3 &lt; Transfer-Encoding: chunked
+3 &lt; Vary: Origin
+3 &lt; Vary: Access-Control-Request-Method
+3 &lt; Vary: Access-Control-Request-Headers
+3 &lt; X-Content-Type-Options: nosniff
+3 &lt; X-XSS-Protection: 1; mode=block
+3 &lt; Strict-Transport-Security: max-age=31536000 ; includeSubDomains
+3 &lt; X-Frame-Options: DENY
+3 &lt; Set-Cookie: JSESSIONID=7715675BD281EFB64E3072CB6580D29F; Domain=tek-insurance-api.azurewebsites.net; Secure
+{&quot;timestamp&quot;:1692739791913,&quot;message&quot;:&quot;Failed to convert value of type &#39;java.lang.String&#39; to required type &#39;java.lang.Long&#39;; nested exception is java.lang.NumberFormatException: For input string: \&quot;{\&quot;result\&quot;:{\&quot;responseStatus\&quot;:200,\&quot;response\&quot;:{\&quot;fullName\&quot;:\&quot;Supervisor\&quot;,\&quot;username\&quot;:\&quot;SUPERVISOR\&quot;,\&quot;token\&quot;:\&quot;eyJraWQiOiJUZWtzY2hvb2wgSW5zdXJhbmNlIEFwcGxpY2F0aW9uIiwidHlwIjoiSldUIiwiYWxnIjoiSFM1MTIifQ.eyJhdWQiOiJVc2VyIG1hbmFnZW1lbnQgcG9ydGFsIiwic3ViIjoiU1VQRVJWSVNPUiIsImlzcyI6IlRlayBJbnN1cmFuY2UgQXBwbGljYXRpb24iLCJBdXRob3JpdGllcyI6WyJBRE1JTiJdLCJleHAiOjE2OTI4MjYxOTEsImlhdCI6MTY5MjczOTc5MX0.dQMf1hz14Hzr4ZfqycKlz0e5xSWWx7Mqk18CECs1oOJeWmJWCaNr79qc3W7P_GPfbf8j5YWdB_2X6Qn_Q0TCfA\&quot;,\&quot;generateDate\&quot;:1692739791150,\&quot;accountType\&quot;:\&quot;CSR\&quot;},\&quot;responseHeaders\&quot;:{\&quot;Content-Type\&quot;:[\&quot;application\\/json\&quot;],\&quot;Date\&quot;:[\&quot;Tue,22Aug202321:29:51GMT\&quot;],\&quot;Cache-Control\&quot;:[\&quot;no-cache,no-store,max-age=0,must-revalidate\&quot;],\&quot;Expires\&quot;:[\&quot;0\&quot;],\&quot;Pragma\&quot;:[\&quot;no-cache\&quot;],\&quot;Transfer-Encoding\&quot;:[\&quot;chunked\&quot;],\&quot;Vary\&quot;:[\&quot;Origin\&quot;,\&quot;Access-Control-Request-Method\&quot;,\&quot;Access-Control-Request-Headers\&quot;],\&quot;X-Content-Type-Options\&quot;:[\&quot;nosniff\&quot;],\&quot;X-XSS-Protection\&quot;:[\&quot;1;mode=block\&quot;],\&quot;Strict-Transport-Security\&quot;:[\&quot;max-age=31536000;includeSubDomains\&quot;],\&quot;X-Frame-Options\&quot;:[\&quot;DENY\&quot;]}},\&quot;validToken\&quot;:\&quot;eyJraWQiOiJUZWtzY2hvb2wgSW5zdXJhbmNlIEFwcGxpY2F0aW9uIiwidHlwIjoiSldUIiwiYWxnIjoiSFM1MTIifQ.eyJhdWQiOiJVc2VyIG1hbmFnZW1lbnQgcG9ydGFsIiwic3ViIjoiU1VQRVJWSVNPUiIsImlzcyI6IlRlayBJbnN1cmFuY2UgQXBwbGljYXRpb24iLCJBdXRob3JpdGllcyI6WyJBRE1JTiJdLCJleHAiOjE2OTI4MjYxOTEsImlhdCI6MTY5MjczOTc5MX0.dQMf1hz14Hzr4ZfqycKlz0e5xSWWx7Mqk18CECs1oOJeWmJWCaNr79qc3W7P_GPfbf8j5YWdB_2X6Qn_Q0TCfA\&quot;,\&quot;responseHeaders\&quot;:{\&quot;Content-Type\&quot;:[\&quot;application\\/json\&quot;],\&quot;Date\&quot;:[\&quot;Tue,22Aug202321:29:51GMT\&quot;],\&quot;Cache-Control\&quot;:[\&quot;no-cache,no-store,max-age=0,must-revalidate\&quot;],\&quot;Expires\&quot;:[\&quot;0\&quot;],\&quot;Pragma\&quot;:[\&quot;no-cache\&quot;],\&quot;Transfer-Encoding\&quot;:[\&quot;chunked\&quot;],\&quot;Vary\&quot;:[\&quot;Origin\&quot;,\&quot;Access-Control-Request-Method\&quot;,\&quot;Access-Control-Request-Headers\&quot;],\&quot;X-Content-Type-Options\&quot;:[\&quot;nosniff\&quot;],\&quot;X-XSS-Protection\&quot;:[\&quot;1;mode=block\&quot;],\&quot;Strict-Transport-Security\&quot;:[\&quot;max-age=31536000;includeSubDomains\&quot;],\&quot;X-Frame-Options\&quot;:[\&quot;DENY\&quot;],\&quot;Set-Cookie\&quot;:[\&quot;JSESSIONID=292333732F59342E62767EDE6D73AD80;Domain=tek-insurance-api.azurewebsites.net;Secure\&quot;]},\&quot;GeneratedEmail\&quot;:\&quot;javaClassStudent7066@tekschool.us\&quot;,\&quot;response\&quot;:{\&quot;id\&quot;:14481,\&quot;email\&quot;:\&quot;javaClassStudent7066@tekschool.us\&quot;,\&quot;title\&quot;:\&quot;Mr.\&quot;,\&quot;firstName\&quot;:\&quot;John\&quot;,\&quot;lastName\&quot;:\&quot;Alex\&quot;,\&quot;gender\&quot;:\&quot;MALE\&quot;,\&quot;maritalStatus\&quot;:\&quot;MARRIED\&quot;,\&quot;employmentStatus\&quot;:\&quot;Tester\&quot;,\&quot;dateOfBirth\&quot;:808704000000,\&quot;user\&quot;:null},\&quot;responseStatus\&quot;:201,\&quot;generateDataObject\&quot;:{}}\&quot;&quot;,&quot;detail&quot;:&quot;uri=/api/accounts/add-account-car&quot;,&quot;cause&quot;:null}
+
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.27">
+      <div class="step-ref failed">27</div>
+      
+      <div class="step-cell failed">
+        <span>Then</span>&nbsp;<span>status 200</span>
+      </div>
+    </div>
+    <div class="time-cell failed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.27">17:29:51.879 src/test/resources/UpdateAccountCar.feature:27
+Then status 200
+status code was: 500, expected: 200, response time in milliseconds: 254, url: https://tek-insurance-api.azurewebsites.net/api/accounts/add-account-car?primaryPersonId=%7B%22result%22%3A%7B%22responseStatus%22%3A200%2C%22response%22%3A%7B%22fullName%22%3A%22Supervisor%22%2C%22username%22%3A%22SUPERVISOR%22%2C%22token%22%3A%22eyJraWQiOiJUZWtzY2hvb2wgSW5zdXJhbmNlIEFwcGxpY2F0aW9uIiwidHlwIjoiSldUIiwiYWxnIjoiSFM1MTIifQ.eyJhdWQiOiJVc2VyIG1hbmFnZW1lbnQgcG9ydGFsIiwic3ViIjoiU1VQRVJWSVNPUiIsImlzcyI6IlRlayBJbnN1cmFuY2UgQXBwbGljYXRpb24iLCJBdXRob3JpdGllcyI6WyJBRE1JTiJdLCJleHAiOjE2OTI4MjYxOTEsImlhdCI6MTY5MjczOTc5MX0.dQMf1hz14Hzr4ZfqycKlz0e5xSWWx7Mqk18CECs1oOJeWmJWCaNr79qc3W7P_GPfbf8j5YWdB_2X6Qn_Q0TCfA%22%2C%22generateDate%22%3A1692739791150%2C%22accountType%22%3A%22CSR%22%7D%2C%22responseHeaders%22%3A%7B%22Content-Type%22%3A%5B%22application%5C%2Fjson%22%5D%2C%22Date%22%3A%5B%22Tue%2C+22+Aug+2023+21%3A29%3A51+GMT%22%5D%2C%22Cache-Control%22%3A%5B%22no-cache%2C+no-store%2C+max-age%3D0%2C+must-revalidate%22%5D%2C%22Expires%22%3A%5B%220%22%5D%2C%22Pragma%22%3A%5B%22no-cache%22%5D%2C%22Transfer-Encoding%22%3A%5B%22chunked%22%5D%2C%22Vary%22%3A%5B%22Origin%22%2C%22Access-Control-Request-Method%22%2C%22Access-Control-Request-Headers%22%5D%2C%22X-Content-Type-Options%22%3A%5B%22nosniff%22%5D%2C%22X-XSS-Protection%22%3A%5B%221%3B+mode%3Dblock%22%5D%2C%22Strict-Transport-Security%22%3A%5B%22max-age%3D31536000+%3B+includeSubDomains%22%5D%2C%22X-Frame-Options%22%3A%5B%22DENY%22%5D%7D%7D%2C%22validToken%22%3A%22eyJraWQiOiJUZWtzY2hvb2wgSW5zdXJhbmNlIEFwcGxpY2F0aW9uIiwidHlwIjoiSldUIiwiYWxnIjoiSFM1MTIifQ.eyJhdWQiOiJVc2VyIG1hbmFnZW1lbnQgcG9ydGFsIiwic3ViIjoiU1VQRVJWSVNPUiIsImlzcyI6IlRlayBJbnN1cmFuY2UgQXBwbGljYXRpb24iLCJBdXRob3JpdGllcyI6WyJBRE1JTiJdLCJleHAiOjE2OTI4MjYxOTEsImlhdCI6MTY5MjczOTc5MX0.dQMf1hz14Hzr4ZfqycKlz0e5xSWWx7Mqk18CECs1oOJeWmJWCaNr79qc3W7P_GPfbf8j5YWdB_2X6Qn_Q0TCfA%22%2C%22responseHeaders%22%3A%7B%22Content-Type%22%3A%5B%22application%5C%2Fjson%22%5D%2C%22Date%22%3A%5B%22Tue%2C+22+Aug+2023+21%3A29%3A51+GMT%22%5D%2C%22Cache-Control%22%3A%5B%22no-cache%2C+no-store%2C+max-age%3D0%2C+must-revalidate%22%5D%2C%22Expires%22%3A%5B%220%22%5D%2C%22Pragma%22%3A%5B%22no-cache%22%5D%2C%22Transfer-Encoding%22%3A%5B%22chunked%22%5D%2C%22Vary%22%3A%5B%22Origin%22%2C%22Access-Control-Request-Method%22%2C%22Access-Control-Request-Headers%22%5D%2C%22X-Content-Type-Options%22%3A%5B%22nosniff%22%5D%2C%22X-XSS-Protection%22%3A%5B%221%3B+mode%3Dblock%22%5D%2C%22Strict-Transport-Security%22%3A%5B%22max-age%3D31536000+%3B+includeSubDomains%22%5D%2C%22X-Frame-Options%22%3A%5B%22DENY%22%5D%2C%22Set-Cookie%22%3A%5B%22JSESSIONID%3D292333732F59342E62767EDE6D73AD80%3B+Domain%3Dtek-insurance-api.azurewebsites.net%3B+Secure%22%5D%7D%2C%22GeneratedEmail%22%3A%22javaClassStudent7066%40tekschool.us%22%2C%22response%22%3A%7B%22id%22%3A14481%2C%22email%22%3A%22javaClassStudent7066%40tekschool.us%22%2C%22title%22%3A%22Mr.%22%2C%22firstName%22%3A%22John%22%2C%22lastName%22%3A%22Alex%22%2C%22gender%22%3A%22MALE%22%2C%22maritalStatus%22%3A%22MARRIED%22%2C%22employmentStatus%22%3A%22Tester%22%2C%22dateOfBirth%22%3A808704000000%2C%22user%22%3Anull%7D%2C%22responseStatus%22%3A201%2C%22generateDataObject%22%3A%7B%7D%7D, response: 
+{&quot;timestamp&quot;:1692739791913,&quot;message&quot;:&quot;Failed to convert value of type &#39;java.lang.String&#39; to required type &#39;java.lang.Long&#39;; nested exception is java.lang.NumberFormatException: For input string: \&quot;{\&quot;result\&quot;:{\&quot;responseStatus\&quot;:200,\&quot;response\&quot;:{\&quot;fullName\&quot;:\&quot;Supervisor\&quot;,\&quot;username\&quot;:\&quot;SUPERVISOR\&quot;,\&quot;token\&quot;:\&quot;eyJraWQiOiJUZWtzY2hvb2wgSW5zdXJhbmNlIEFwcGxpY2F0aW9uIiwidHlwIjoiSldUIiwiYWxnIjoiSFM1MTIifQ.eyJhdWQiOiJVc2VyIG1hbmFnZW1lbnQgcG9ydGFsIiwic3ViIjoiU1VQRVJWSVNPUiIsImlzcyI6IlRlayBJbnN1cmFuY2UgQXBwbGljYXRpb24iLCJBdXRob3JpdGllcyI6WyJBRE1JTiJdLCJleHAiOjE2OTI4MjYxOTEsImlhdCI6MTY5MjczOTc5MX0.dQMf1hz14Hzr4ZfqycKlz0e5xSWWx7Mqk18CECs1oOJeWmJWCaNr79qc3W7P_GPfbf8j5YWdB_2X6Qn_Q0TCfA\&quot;,\&quot;generateDate\&quot;:1692739791150,\&quot;accountType\&quot;:\&quot;CSR\&quot;},\&quot;responseHeaders\&quot;:{\&quot;Content-Type\&quot;:[\&quot;application\\/json\&quot;],\&quot;Date\&quot;:[\&quot;Tue,22Aug202321:29:51GMT\&quot;],\&quot;Cache-Control\&quot;:[\&quot;no-cache,no-store,max-age=0,must-revalidate\&quot;],\&quot;Expires\&quot;:[\&quot;0\&quot;],\&quot;Pragma\&quot;:[\&quot;no-cache\&quot;],\&quot;Transfer-Encoding\&quot;:[\&quot;chunked\&quot;],\&quot;Vary\&quot;:[\&quot;Origin\&quot;,\&quot;Access-Control-Request-Method\&quot;,\&quot;Access-Control-Request-Headers\&quot;],\&quot;X-Content-Type-Options\&quot;:[\&quot;nosniff\&quot;],\&quot;X-XSS-Protection\&quot;:[\&quot;1;mode=block\&quot;],\&quot;Strict-Transport-Security\&quot;:[\&quot;max-age=31536000;includeSubDomains\&quot;],\&quot;X-Frame-Options\&quot;:[\&quot;DENY\&quot;]}},\&quot;validToken\&quot;:\&quot;eyJraWQiOiJUZWtzY2hvb2wgSW5zdXJhbmNlIEFwcGxpY2F0aW9uIiwidHlwIjoiSldUIiwiYWxnIjoiSFM1MTIifQ.eyJhdWQiOiJVc2VyIG1hbmFnZW1lbnQgcG9ydGFsIiwic3ViIjoiU1VQRVJWSVNPUiIsImlzcyI6IlRlayBJbnN1cmFuY2UgQXBwbGljYXRpb24iLCJBdXRob3JpdGllcyI6WyJBRE1JTiJdLCJleHAiOjE2OTI4MjYxOTEsImlhdCI6MTY5MjczOTc5MX0.dQMf1hz14Hzr4ZfqycKlz0e5xSWWx7Mqk18CECs1oOJeWmJWCaNr79qc3W7P_GPfbf8j5YWdB_2X6Qn_Q0TCfA\&quot;,\&quot;responseHeaders\&quot;:{\&quot;Content-Type\&quot;:[\&quot;application\\/json\&quot;],\&quot;Date\&quot;:[\&quot;Tue,22Aug202321:29:51GMT\&quot;],\&quot;Cache-Control\&quot;:[\&quot;no-cache,no-store,max-age=0,must-revalidate\&quot;],\&quot;Expires\&quot;:[\&quot;0\&quot;],\&quot;Pragma\&quot;:[\&quot;no-cache\&quot;],\&quot;Transfer-Encoding\&quot;:[\&quot;chunked\&quot;],\&quot;Vary\&quot;:[\&quot;Origin\&quot;,\&quot;Access-Control-Request-Method\&quot;,\&quot;Access-Control-Request-Headers\&quot;],\&quot;X-Content-Type-Options\&quot;:[\&quot;nosniff\&quot;],\&quot;X-XSS-Protection\&quot;:[\&quot;1;mode=block\&quot;],\&quot;Strict-Transport-Security\&quot;:[\&quot;max-age=31536000;includeSubDomains\&quot;],\&quot;X-Frame-Options\&quot;:[\&quot;DENY\&quot;],\&quot;Set-Cookie\&quot;:[\&quot;JSESSIONID=292333732F59342E62767EDE6D73AD80;Domain=tek-insurance-api.azurewebsites.net;Secure\&quot;]},\&quot;GeneratedEmail\&quot;:\&quot;javaClassStudent7066@tekschool.us\&quot;,\&quot;response\&quot;:{\&quot;id\&quot;:14481,\&quot;email\&quot;:\&quot;javaClassStudent7066@tekschool.us\&quot;,\&quot;title\&quot;:\&quot;Mr.\&quot;,\&quot;firstName\&quot;:\&quot;John\&quot;,\&quot;lastName\&quot;:\&quot;Alex\&quot;,\&quot;gender\&quot;:\&quot;MALE\&quot;,\&quot;maritalStatus\&quot;:\&quot;MARRIED\&quot;,\&quot;employmentStatus\&quot;:\&quot;Tester\&quot;,\&quot;dateOfBirth\&quot;:808704000000,\&quot;user\&quot;:null},\&quot;responseStatus\&quot;:201,\&quot;generateDataObject\&quot;:{}}\&quot;&quot;,&quot;detail&quot;:&quot;uri=/api/accounts/add-account-car&quot;,&quot;cause&quot;:null}
+src/test/resources/UpdateAccountCar.feature:27
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.28">
+      <div class="step-ref skipped">28</div>
+      
+      <div class="step-cell skipped">
+        <span>And</span>&nbsp;<span>print response</span>
+      </div>
+    </div>
+    <div class="time-cell skipped">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+

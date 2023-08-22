@@ -91,6 +91,17 @@
     
     
     
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
     #Given path "/api/accounts/delete-account"
     #And param primaryPersonId = createdAccountId
     #And header Authorization = "Bearer " + validToken

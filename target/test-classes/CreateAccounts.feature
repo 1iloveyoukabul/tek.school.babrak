@@ -1,4 +1,4 @@
-@Regression    
+@reggersion    
     Feature: updating an account
 
   Background: Test setup and Create New Account.

@@ -33,6 +33,9 @@
 			<configuration>
 				<includes>
 					<include>TestRunner.java</include>
+					<!--include>${Runner}.java</include.with both method can run test-->
+					<!--in order to run with maven command should-->
+					<!-- clean test-Drunner=<smokRunner/ ReggersionRunner-->
 				</includes>
 			</configuration>
 		 </plugin>

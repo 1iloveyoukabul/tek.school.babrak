@@ -8,8 +8,8 @@ public class TestRunner {
 	public Karate runTest() {
 		// address for our feature files
 		// And tag
-		return Karate.run("classpath:combinedAccounts.feature")
-				.tags("@Regression ");
+		return Karate.run("classpath:features")
+				.tags("@Smoke");
 	}
 
 

@@ -25,7 +25,7 @@ And request
         "gender": "MALE",
         "maritalStatus": "MARRIED",
         "employmentStatus": "Tester",
-        "dateOfBirth": 618105600000,
+        "dateOfBirth": "1995-08-18",
         
     }
 """
